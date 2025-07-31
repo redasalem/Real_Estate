@@ -4,3 +4,6 @@
 *{
     font-family: "Outfit", sans-serif;
 }
+#Header{
+    background-image: url(src/assets/header_img.png);
+}
