@@ -13,7 +13,7 @@ Fully responsive with clean UI components, fast load time, and deploy-ready with
 
 ## 📸 Screenshots
 
-![Screenshot](./src/assets/header_img.png) <!-- لو حبيت تحط صورة -->
+![Screenshot](/public/header_img.png) <!-- لو حبيت تحط صورة -->
 <!-- ممكن تصور سكرين من الصفحة الرئيسية وتحفظها في مجلد screenshots -->
 
 ---
