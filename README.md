@@ -7,7 +7,7 @@ Fully responsive with clean UI components, fast load time, and deploy-ready with
 
 ## 🚀 Live Demo
 
-🔗 [Click here to view the live project](https://your-netlify-link.netlify.app)
+🔗 [Click here to view the live project](https://realstateredasalem.netlify.app/)
 
 ---
 
