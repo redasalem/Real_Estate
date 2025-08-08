@@ -6,7 +6,6 @@ import star_icon from './star_icon.svg'
 import left_arrow from './left_arrow.svg'
 import right_arrow from './right_arrow.svg'
 import stateLogo   from './stateLogo.jpg'
-import bg_header   from './bg_header.mp4'
 import brand_img from './brand_img.png'
 import project_img_1 from './project_img_1.jpg'
 import project_img_2 from './project_img_2.jpg'
@@ -32,7 +31,6 @@ export const assets = {
     left_arrow,
     right_arrow,
     stateLogo,
-    bg_header
 }
 
 export const projectsData = [

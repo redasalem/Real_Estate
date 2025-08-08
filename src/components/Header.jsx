@@ -1,8 +1,6 @@
 import React from 'react';
 import Navbar from "./Navbar";
 import { motion } from 'framer-motion'
-import { assets } from '../assets/assets';
-
 
 const Header = () => {
   return (
@@ -11,7 +9,7 @@ const Header = () => {
       {/* bg-header vedio */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover -z-10"
-        src={assets.bg_header}
+        src='/bg_header.mp4'
         autoPlay
         muted
         loop
