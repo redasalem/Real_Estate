@@ -21,7 +21,7 @@ const Navbar = () => {
         bg-transparent'>
             <img  
             className='rounded-full cursor-pointer'
-            src='/src/assets/stateLogo.jpg' 
+            src={assets.stateLogo} 
             alt="logo" 
             height={50}
             width={50}
