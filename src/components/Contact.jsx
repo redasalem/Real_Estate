@@ -37,31 +37,31 @@ const Contact = () => {
       whileInView={{opacity: 1 ,x:0}}
       viewport={{once:true}}
      className='text-center p-6 py-20 lg:px-32 w-full overflow-hidden' id='contact'>
-         <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'>Contact <span className='underline underline-offset-4
-         decoration-1 under font-light'>With Us</span></h1>
-        <p className='text-gray-500 max-w-80 text-center mb-8 mx-auto'>Ready to Make a Move ? let's Build Your future Together</p>
+         <h1 className='text-2xl sm:text-4xl font-bold mb-2 text-center'> تواصل  <span className='underline underline-offset-4
+         decoration-1 under font-light'> معنا </span></h1>
+        <p className='text-gray-500 max-w-80 text-center mb-8 mx-auto text-xl'>هل أنت مستعد ؟ دعنا نبني مستقبلك معًا</p>
 
         <form onSubmit={onSubmit} className='max-w-2xl mx-auto text-gray-600 pt-8'>
             <div className='flex flex-wrap'>
-                <div className='w-full md:w-1/2 text-left'>
-                    Your Name
-                <input name='Name' className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" placeholder='Your Name' required />
+                <div className='w-full md:w-1/2 text-right text-xl font-semibold'>
+                    الاسم :
+                <input name='Name' className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="text" placeholder='ادخل الاسم' required />
                 </div>
-                  <div className='w-full md:w-1/2 text-left md:pl-4'>
-                    Your Email
-                <input name='Email' className='w-full border border-gray-300 rounded py-3 px-4 mt-2' type="email" placeholder='Your Email' required />
+                  <div className='w-full md:w-1/2 text-right text-xl font-semibold md:pl-4'>
+                    الايميل : 
+                <input name='Email' className='w-full border border-gray-300 rounded py-3 px-4 mt-2 mr-2' type="email" placeholder='ادخل الايميل الشخصى' required />
                 </div>
             </div>
-            <div className='my-6 text-left'>
-                message
+            <div className='my-6 text-right text-xl font-semibold'>
+                الرسالة :
                 <textarea
                 className='w-full border border-gray-300 rounded py-3 px-4 mt-2 h-48 resize-none'
-                 name="message" placeholder='message' required></textarea>
+                 name="message" placeholder='اكتب رسالتك ...' required></textarea>
 
             </div>
             <button 
-            className='bg-blue-600 text-white py-2 px-12 mb-10  rounded cursor-pointer'
-            >{result ? result :'Send Message'}</button>
+            className='bg-blue-600 text-white py-2 px-12 mb-10  rounded cursor-pointer md:text-[19px] font-bold hover:animate-spin'
+            >{result ? result :'ارسال'}</button>
 
         </form>
         </motion.div>
